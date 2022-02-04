@@ -1,11 +1,50 @@
-import { BannerContainer } from './components/BannerContainer/BannerContainer.jsx'
+import { BannerContainer } from "./components/BannerContainer/BannerContainer.jsx";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <BannerContainer/>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <p>agnfoasldgjnoasdgmpas</p>
+      <BannerContainer />
     </div>
   );
 }

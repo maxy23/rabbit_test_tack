@@ -1,43 +1,80 @@
 .Banner {
-    background-image: url('../../../public/assets/images/BannerBackground.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-};
+  background-image: url("../../../public/assets/images/BannerBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.Hidden {
+  display: none;
+}
 
 .Banner__ListenMusic {
-    color: #fff;
-
-
-};
+  color: #fff;
+  font-family: SF Pro Text, "Roboto", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
 
 .Banner__CloseButton {
-    position: absolute;
-    top: 5px;
-    left: 100px;
-};
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background: none;
+}
+
+.Banner__YellowDot {
+  display: inline-block;
+  color: #ffa911;
+  margin: 0px;
+  padding: 0px;
+}
 
 .Banner__CompanyName {
-    color: #fff;
-};
+  color: #fff;
+  font-family: SF Pro Text, "Roboto", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
 
 .Banner__MonthForFreeButton {
-    background-color: #FFB524;
-    border: none;
-    border-radius: 34px;
-    color: #27605C;
-
-
-};
+  background-color: #ffb524;
+  border: none;
+  border-radius: 34px;
+  color: #27605c;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 8px;
+  padding-left: 22px;
+  padding-bottom: 8px;
+  padding-right: 22px;
+}
 
 .Banner__LogoRabbit {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-};
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
 
 @media (min-width: 991px) {
-    .Banner {
-      display: none;
-    }
+  .Banner {
+    display: none;
   }
+}
