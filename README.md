@@ -1,0 +1,1 @@
+Yachmenev Maxim. created Banner component

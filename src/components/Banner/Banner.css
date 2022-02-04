@@ -1,0 +1,43 @@
+.Banner {
+    background-image: url('../../../public/assets/images/BannerBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+};
+
+.Banner__ListenMusic {
+    color: #fff;
+
+
+};
+
+.Banner__CloseButton {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+};
+
+.Banner__CompanyName {
+    color: #fff;
+};
+
+.Banner__MonthForFreeButton {
+    background-color: #FFB524;
+    border: none;
+    border-radius: 34px;
+    color: #27605C;
+
+
+};
+
+.Banner__LogoRabbit {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+};
+
+@media (min-width: 991px) {
+    .Banner {
+      display: none;
+    }
+  }
