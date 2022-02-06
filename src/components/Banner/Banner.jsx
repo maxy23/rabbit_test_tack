@@ -2,25 +2,38 @@ import "./Banner.css";
 import { useState } from "react";
 import cn from "classnames";
 
-export function Banner(props) {
+export function Banner({ className }) {
   const [isClosed, SetIsClosed] = useState(false);
+
+  console.log("className -->", className);
 
   function ClosedHandle() {
     SetIsClosed(true);
   }
 
   return (
-    <div className={isClosed ? "Hidden" : cn("Banner", props.style)}>
-      <p className={cn("Banner__ListenMusic", props.style)}>Слушай музыку в приложении</p>
-      <button onClick={ClosedHandle} className={cn("Banner__CloseButton", props.style)}>
+    <div
+      className={cn("Banner", className, {
+        Hidden: isClosed,
+      })}
+    >
+      <p className={cn("Banner__ListenMusic", className)}>
+        Слушай музыку в приложении
+      </p>
+      <button
+        onClick={ClosedHandle}
+        className={cn("Banner__CloseButton", className)}
+      >
         <img src="/assets/images/CloseButton.svg" alt="CloseButton" />
       </button>
-      <p className={cn("Banner__CompanyName", props.style)}>
-        ZAYCEV<span className={cn("Banner__YellowDot", props.style)}>.</span>NET
+      <p className={cn("Banner__CompanyName", className)}>
+        ZAYCEV<span className={cn("Banner__YellowDot", className)}>.</span>NET
       </p>
-      <button className={cn("Banner__MonthForFreeButton", props.style)}>МЕСЯЦ БЕСПЛАТНО</button>
+      <button className={cn("Banner__MonthForFreeButton", className)}>
+        МЕСЯЦ БЕСПЛАТНО
+      </button>
       <img
-        className={cn("Banner__LogoRabbit", props.style)}
+        className={cn("Banner__LogoRabbit", className)}
         src="/assets/images/LogoRabbit.svg"
         alt="LogoRabbit"
       />

@@ -1,4 +1,4 @@
-import cn from "classnames";
+import classNames from "classnames";
 import { useEffect, useState } from "react";
 import { Banner } from "../Banner/Banner.jsx";
 
@@ -22,11 +22,15 @@ export function BannerContainer() {
       document.removeEventListener("scroll", handlePageScroll);
     };
   });
+
+
   return (
-    <div
-      className={"BannerContainer"}
-    >
-      <Banner style = {isPageScrolled? "Transform" : null} />
+    <div className={"BannerContainer"}>
+      <Banner
+        className={classNames({
+          Transform: isPageScrolled,
+        })}
+      />
     </div>
   );
 }
