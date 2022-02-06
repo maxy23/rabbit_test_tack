@@ -5,8 +5,6 @@ import cn from "classnames";
 export function Banner({ className }) {
   const [isClosed, SetIsClosed] = useState(false);
 
-  console.log("className -->", className);
-
   function ClosedHandle() {
     SetIsClosed(true);
   }
