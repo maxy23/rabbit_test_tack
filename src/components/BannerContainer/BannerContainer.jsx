@@ -1,3 +1,4 @@
+import cn from "classnames";
 import { useEffect, useState } from "react";
 import { Banner } from "../Banner/Banner.jsx";
 
@@ -22,8 +23,10 @@ export function BannerContainer() {
     };
   });
   return (
-      <div className={isPageScrolled ? "BannerContainer" + " BannerContainer__Transform" : "BannerContainer"}>
-        <Banner />
-      </div>
+    <div
+      className={"BannerContainer"}
+    >
+      <Banner style = {isPageScrolled? "Transform" : null} />
+    </div>
   );
 }
